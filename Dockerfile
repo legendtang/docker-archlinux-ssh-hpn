@@ -4,7 +4,7 @@
 # Based on Arch Linux
 ############################################################
 
-FROM yantis/archlinux-small
+FROM docker.mirrors.ustc.edu.cn/yantis/archlinux-small
 MAINTAINER Jonathan Yantis <yantis@yantis.net>
 
 ADD keyfix/keyfix.sh /usr/bin/keyfix
